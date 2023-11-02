@@ -1,8 +1,9 @@
 use leptos::*;
+use crate::app_leptos::components;
 
 #[component]
 pub fn App() -> impl IntoView {
     view! {
-        <p>test</p>
+        <components::TestComponent/>
     }
 }
